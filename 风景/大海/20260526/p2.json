@@ -1,0 +1,50 @@
+{
+  "id": "p2",
+  "title": "晨曦静海",
+  "category": {
+    "primary": "风景",
+    "secondary": "大海"
+  },
+  "scene": "清晨日出时分的宁静海岸，海面平缓，远处地平线开阔，暖色晨光映在浅蓝海水与云层之间，整体氛围安静、治愈、松弛。",
+  "prompt": "Use case: stylized-concept. Asset type: production mobile wallpaper for image library. Create one premium vertical wallpaper for category 风景 / 大海, composed for a 1440x2560 phone wallpaper canvas. A calm healing seaside at sunrise, wide open ocean, soft waves near shore, distant horizon, airy sky with warm morning light. The sea itself is the clear focal subject. Polished illustration with subtle cinematic atmosphere, painterly but clean, premium wallpaper quality. Strict 9:16 portrait composition with all important visual elements centered safely in the middle 70-80% area and a 10-15% safe margin on all sides. Soft sunrise glow, diffused warm natural light, calm reflective water. Light blue, cream, soft warm gold. No human face, no hands, no text, no watermark, no logo, no border, no crowded details, no harsh contrast, no subject at image edges.",
+  "tags": {
+    "emotion": [
+      "治愈",
+      "温柔",
+      "松弛"
+    ],
+    "style": [
+      "插画",
+      "电影感"
+    ],
+    "color": [
+      "浅蓝",
+      "奶油色",
+      "暖金"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "postprocess": [
+      "magick -filter Lanczos -resize 1440x2560^ -gravity center -extent 1440x2560",
+      "bash scripts/make-wallpaper-thumb.sh img/风景/大海/20260526/p2.png img/风景/大海/20260526/p2.webp"
+    ]
+  }
+}

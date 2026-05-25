@@ -1,0 +1,43 @@
+{
+  "id": "p1",
+  "title": "治愈海岸晨光",
+  "category": {
+    "primary": "风景",
+    "secondary": "大海"
+  },
+  "scene": "日出时分的宁静海岸，柔和晨光洒在平静海面上，远处地平线开阔，近处有轻微浪花，整体氛围通透、放松、治愈。",
+  "prompt": "Create a vertical mobile wallpaper for 风景/大海. A calm healing seaside at sunrise, wide open ocean, soft waves near shore, distant horizon, airy sky with warm morning light. Premium illustration with subtle cinematic atmosphere, gentle painterly detail, elegant and clean. 9:16 portrait composition with the visual focus centered safely within the middle area, leaving 10-15% safe margin on all sides for screen cropping. Soft sunrise glow, diffused natural light, calm reflective water. No people, no animals, no text, no watermark, no logo, no harsh contrast.",
+  "tags": {
+    "emotion": [
+      "治愈",
+      "温柔",
+      "松弛"
+    ],
+    "style": [
+      "插画",
+      "电影感"
+    ],
+    "color": [
+      "浅蓝",
+      "奶油色"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 941,
+      "height": 1672
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "notes": "原图为样张预览，实际生成尺寸未达到图库默认目标 1440x2560。"
+}
