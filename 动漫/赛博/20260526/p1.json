@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "霓城回路",
+  "category": {
+    "primary": "动漫",
+    "secondary": "赛博"
+  },
+  "scene": "高楼、全息光带与雨夜反射组成赛博都市，没有人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 赛博. A cyberpunk anime cityscape with neon towers, holographic light ribbons, rainy reflections, and atmospheric depth, with no characters present. Premium futuristic illustration with strong mood and polish. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, safe centered layout. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "神秘",
+      "深夜",
+      "高级感"
+    ],
+    "style": [
+      "赛博朋克",
+      "数字艺术"
+    ],
+    "color": [
+      "深紫",
+      "深蓝",
+      "霓虹渐变"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149fb86ef08191ac3bd34a301fcb3d.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

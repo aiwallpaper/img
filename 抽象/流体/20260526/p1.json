@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "液态幻潮",
+  "category": {
+    "primary": "抽象",
+    "secondary": "流体"
+  },
+  "scene": "流动液态材质交叠卷曲，具有高光与丝滑质感。",
+  "prompt": "Create one premium vertical wallpaper for category 抽象 / 流体. Flowing liquid-like abstract forms with glossy highlights and smooth curves, rich depth and premium material feel. High-end digital artwork with a subtle 3D look. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, centered and safe. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "梦幻",
+      "高级感",
+      "神秘"
+    ],
+    "style": [
+      "数字艺术",
+      "3D渲染"
+    ],
+    "color": [
+      "深紫",
+      "浅蓝",
+      "霓虹渐变"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a14a4ea16c88191a0b1aad9a2d1587e.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "雪原静白",
+  "category": {
+    "primary": "风景",
+    "secondary": "雪景"
+  },
+  "scene": "雪地、松林与淡蓝天空构成冷静纯净的冬日场景，层次清晰。",
+  "prompt": "Create one premium vertical wallpaper for category 风景 / 雪景. A pristine snowy landscape with gentle hills, sparse pines, cold clear air, and a calm winter sky. Premium cinematic illustration, clean and serene. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep the main shapes centered within a safe margin. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "安静",
+      "清新",
+      "冷淡"
+    ],
+    "style": [
+      "插画",
+      "电影感"
+    ],
+    "color": [
+      "白色",
+      "浅蓝",
+      "深蓝"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149cad6cb481919a60ab981ee44dde.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

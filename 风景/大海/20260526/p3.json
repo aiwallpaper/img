@@ -1,0 +1,51 @@
+{
+  "id": "p3",
+  "title": "晨光海岸",
+  "category": {
+    "primary": "风景",
+    "secondary": "大海"
+  },
+  "scene": "清晨暖光洒在平静海面与远方天际线，海岸开阔而松弛。",
+  "prompt": "Create one premium vertical wallpaper for category 风景 / 大海. A calm seaside at sunrise, open ocean, soft waves, distant horizon, airy clouds, warm morning glow. Premium painterly illustration with cinematic atmosphere. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, all important elements centered safely with a 10-15% safe margin. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "治愈",
+      "温柔",
+      "松弛"
+    ],
+    "style": [
+      "插画",
+      "电影感"
+    ],
+    "color": [
+      "浅蓝",
+      "奶油色",
+      "黄色"
+    ]
+  },
+  "files": {
+    "original": "p3.png",
+    "thumbnail": "p3.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149b0fc4508191b52923c8ab691ca2.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

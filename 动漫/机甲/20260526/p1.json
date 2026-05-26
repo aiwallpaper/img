@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "钢穹核心",
+  "category": {
+    "primary": "动漫",
+    "secondary": "机甲"
+  },
+  "scene": "巨大机甲胸像与机械结构在工业灯光中呈现，科幻感强。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 机甲. A heroic mecha torso and layered mechanical architecture lit by industrial glow, futuristic and imposing, with no human pilot visible. Premium anime-mecha illustration, sharp detail, cinematic scale. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, important forms centered and away from edges. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "高级感",
+      "神秘",
+      "冷淡"
+    ],
+    "style": [
+      "科幻UI",
+      "数字艺术"
+    ],
+    "color": [
+      "深蓝",
+      "黑色",
+      "霓虹渐变"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149ec7c98c8191aed6f3fd5e1746f5.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

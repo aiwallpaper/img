@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "微观肌理",
+  "category": {
+    "primary": "抽象",
+    "secondary": "纹理"
+  },
+  "scene": "精致材质纹理与浅浮雕层次近景呈现，细节丰富但不拥挤。",
+  "prompt": "Create one premium vertical wallpaper for category 抽象 / 纹理. A macro abstract surface with elegant texture, subtle relief layers, and tactile material detail, sophisticated and calm. Premium digital artwork. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, texture focus centered with safe margins. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "高级感",
+      "冷淡",
+      "安静"
+    ],
+    "style": [
+      "数字艺术",
+      "3D渲染"
+    ],
+    "color": [
+      "奶油色",
+      "深绿",
+      "白色"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a14a53aca0c8191afd9f2ca40250a58.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

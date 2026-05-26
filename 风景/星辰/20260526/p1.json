@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "银河静夜",
+  "category": {
+    "primary": "风景",
+    "secondary": "星辰"
+  },
+  "scene": "静谧夜空覆盖远山与微光湖面，银河与繁星成为主体，氛围空灵而安静。",
+  "prompt": "Create one premium vertical wallpaper for category 风景 / 星辰. A serene starry night sky above distant dark hills and a faint reflective lake, with luminous stars and a subtle Milky Way band as the focal subject. Polished cinematic illustration, refined painterly detail, deep blue, indigo, silver white, faint teal accents. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep all key elements inside the middle 70-80% area with a 10-15% safe margin. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "安静",
+      "梦幻",
+      "治愈"
+    ],
+    "style": [
+      "插画",
+      "电影感"
+    ],
+    "color": [
+      "深蓝",
+      "深紫",
+      "白色"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149ac7820081919a4c63dc1ef681b6.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

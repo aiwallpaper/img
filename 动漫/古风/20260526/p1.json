@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "月庭清影",
+  "category": {
+    "primary": "动漫",
+    "secondary": "古风"
+  },
+  "scene": "中式庭院、月色、灯笼与竹影组成古风画面，不出现人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 古风. An elegant ancient Chinese courtyard under moonlight with lantern glow, bamboo shadows, and drifting petals, no characters visible. Premium guofeng anime illustration, poetic and refined. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, key elements centered with safe margins. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "唯美",
+      "安静",
+      "神秘"
+    ],
+    "style": [
+      "国风",
+      "古风"
+    ],
+    "color": [
+      "深蓝",
+      "深绿",
+      "黄色"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149e04a45c8191a544fb9c48ca7825.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

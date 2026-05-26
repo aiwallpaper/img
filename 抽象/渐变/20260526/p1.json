@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "霞色过渡",
+  "category": {
+    "primary": "抽象",
+    "secondary": "渐变"
+  },
+  "scene": "柔和大面积色彩渐变从上至下流动，画面纯净高级。",
+  "prompt": "Create one premium vertical wallpaper for category 抽象 / 渐变. A smooth elegant abstract gradient flowing through the frame with subtle light bloom and premium color transitions, clean and immersive. Premium digital art wallpaper. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, safe centered gradient focal transitions. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "温柔",
+      "梦幻",
+      "高级感"
+    ],
+    "style": [
+      "数字艺术",
+      "插画"
+    ],
+    "color": [
+      "蓝紫渐变",
+      "粉色",
+      "浅蓝"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a14a3dbfc788191b8e73ef50083aec6.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

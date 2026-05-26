@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "秘境浮岛",
+  "category": {
+    "primary": "动漫",
+    "secondary": "奇幻"
+  },
+  "scene": "浮空岛屿、古遗迹和发光植物构成奇幻世界感。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 奇幻. A magical anime fantasy world with floating islands, ancient ruins, glowing plants, and misty depth, with no characters present. Premium illustrative anime wallpaper, immersive and elegant. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, all key elements centered safely. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "幻想",
+      "梦幻",
+      "唯美"
+    ],
+    "style": [
+      "二次元",
+      "插画"
+    ],
+    "color": [
+      "浅蓝",
+      "深绿",
+      "黄色"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149f1a59d08191ae0203554edd4bff.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

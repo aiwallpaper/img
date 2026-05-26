@@ -1,0 +1,51 @@
+{
+  "id": "p1",
+  "title": "午后校园",
+  "category": {
+    "primary": "动漫",
+    "secondary": "校园"
+  },
+  "scene": "安静校园走廊、窗影与课桌元素构成青春校园氛围，无人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 校园. A quiet anime school corridor with sunlight through windows, desks, and breezy curtains, evoking youthful calm, with no characters present. Refined anime illustration with cinematic daylight. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, centered and safe. No faces, no hands, no text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "清新",
+      "温柔",
+      "松弛"
+    ],
+    "style": [
+      "二次元",
+      "新海诚"
+    ],
+    "color": [
+      "浅蓝",
+      "奶油色",
+      "浅绿"
+    ]
+  },
+  "files": {
+    "original": "p1.png",
+    "thumbnail": "p1.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/liquanfeng/.codex/generated_images/019e6075-19ce-7fe1-b583-2561e53edfa9/ig_0254d5cf3b9bcf6a016a149dbc02b48191ab80aff48275d7fc.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}
