@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "励志"
   },
-  "scene": "通向晨光的几何阶梯与云层形成积极背景，中央加入中文文案“慢一点没关系 / 你一直在向前”。",
-  "prompt": "Create one premium vertical wallpaper for category 文字 / 励志 with ascending steps, dawn light, soft clouds, and a centered typography-safe area. Render the final wallpaper with visible Chinese text: “慢一点没关系 / 你一直在向前”. Premium uplifting poster wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "scene": "暖白留白背景与克制晨光路径共同服务文字层级，画面安定、笃定，不煽情也不嘈杂。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 励志. Minimalist motivational poster with warm off-white background, one subtle ascending path, and large readable Simplified Chinese text: “慢一点没关系 / 你一直在向前”. Calm, reassuring, quietly powerful, with strong negative space. No clutter, no watermark, no logo, no border.",
   "tags": {
     "emotion": [
       "振作",

@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "EMO"
   },
-  "scene": "深夜房间、窗面水痕与微弱霓虹构成情绪化背景，中央加入中文文案“有些话 / 只适合说给夜里听”。",
-  "prompt": "Create one premium vertical wallpaper for category 文字 / EMO with a dark emotional room, watery reflections, cassette fragments, and a centered typography-safe area. Render the final wallpaper with visible Chinese text: “有些话 / 只适合说给夜里听”. Premium emotional poster wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "scene": "近黑靛蓝背景与微弱窗光倒影构成安静情绪场，文案成为唯一主视觉，整体克制、孤独、留白充足。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / EMO. Refined editorial poster, 50-60% negative space, near-black indigo background, one dim reflected window glow, and large readable Simplified Chinese text: “有些话 / 只适合说给夜里听”. The wallpaper should feel lonely, quiet, intimate, and high-end. No clutter, no collage, no watermark, no logo, no border.",
   "tags": {
     "emotion": [
       "失重",
