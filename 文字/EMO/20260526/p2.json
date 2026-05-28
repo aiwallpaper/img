@@ -1,0 +1,52 @@
+{
+  "id": "p2",
+  "title": "夜里收声",
+  "category": {
+    "primary": "文字",
+    "secondary": "EMO"
+  },
+  "scene": "深夜房间、窗面水痕与微弱霓虹构成情绪化背景，中央加入中文文案“有些话 / 只适合说给夜里听”。",
+  "prompt": "Create one premium vertical wallpaper for category 文字 / EMO with a dark emotional room, watery reflections, cassette fragments, and a centered typography-safe area. Render the final wallpaper with visible Chinese text: “有些话 / 只适合说给夜里听”. Premium emotional poster wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "失重",
+      "压抑",
+      "迟滞"
+    ],
+    "style": [
+      "实验影像感",
+      "暗色拼贴"
+    ],
+    "color": [
+      "煤灰",
+      "蓝黑",
+      "冷紫"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167dcf5468819180fe2147778c37a3.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  },
+  "copy": "有些话\n只适合说给夜里听"
+}

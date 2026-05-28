@@ -1,0 +1,52 @@
+{
+  "id": "p2",
+  "title": "欢喜有期",
+  "category": {
+    "primary": "文字",
+    "secondary": "节日"
+  },
+  "scene": "节庆挂饰、礼灯与宝石色调构成热闹海报背景，中央加入中文文案“把欢喜 / 收进今天”。",
+  "prompt": "Create one premium vertical wallpaper for category 文字 / 节日 with festive garlands, ornaments, gift lights, rich jewel tones, and a lively but clean center area. Render the final wallpaper with visible Chinese text: “把欢喜 / 收进今天”. Premium holiday wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "欢腾",
+      "仪式感",
+      "热闹"
+    ],
+    "style": [
+      "拼贴海报风",
+      "装饰艺术"
+    ],
+    "color": [
+      "宝石绿",
+      "金铜",
+      "酒红"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167f5a8b408191bf4d057e829d0b2a.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  },
+  "copy": "把欢喜\n收进今天"
+}

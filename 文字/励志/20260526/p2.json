@@ -1,0 +1,52 @@
+{
+  "id": "p2",
+  "title": "向前生长",
+  "category": {
+    "primary": "文字",
+    "secondary": "励志"
+  },
+  "scene": "通向晨光的几何阶梯与云层形成积极背景，中央加入中文文案“慢一点没关系 / 你一直在向前”。",
+  "prompt": "Create one premium vertical wallpaper for category 文字 / 励志 with ascending steps, dawn light, soft clouds, and a centered typography-safe area. Render the final wallpaper with visible Chinese text: “慢一点没关系 / 你一直在向前”. Premium uplifting poster wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "振作",
+      "坚定",
+      "上升感"
+    ],
+    "style": [
+      "象征主义海报",
+      "图形叙事"
+    ],
+    "color": [
+      "曜金",
+      "深青",
+      "米白"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167e1ad2408191a39b09847c90020c.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  },
+  "copy": "慢一点没关系\n你一直在向前"
+}

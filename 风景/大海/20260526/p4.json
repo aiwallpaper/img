@@ -1,0 +1,51 @@
+{
+  "id": "p4",
+  "title": "荧潮暮湾",
+  "category": {
+    "primary": "风景",
+    "secondary": "大海"
+  },
+  "scene": "傍晚海湾泛起微弱荧光浪线，礁石与低云层在冷暖交界中展开。",
+  "prompt": "Create one premium vertical wallpaper for category 风景 / 大海. A premium seaside wallpaper at twilight with gentle bioluminescent wave lines, dark rocks, and layered clouds where cool and warm light meet. The bay and glowing tide should be the clear focal subject. Polished painterly landscape with a subtle long-exposure feel. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, centered safely with all key elements inside the middle 70-80% area and a 10-15% margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "澎湃",
+      "透亮",
+      "自由"
+    ],
+    "style": [
+      "厚涂风景",
+      "长曝光感"
+    ],
+    "color": [
+      "群青",
+      "青碧",
+      "珊瑚橙"
+    ]
+  },
+  "files": {
+    "original": "p4.png",
+    "thumbnail": "p4.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15ee8e69448191a5035190b3e2b04d.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

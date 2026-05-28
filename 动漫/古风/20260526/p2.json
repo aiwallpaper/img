@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "江灯远渡",
+  "category": {
+    "primary": "动漫",
+    "secondary": "古风"
+  },
+  "scene": "水墨江面、孤舟灯影、远山薄雾与垂柳形成古意场景，不出现人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 古风. An ancient Chinese riverscape at night with a small lantern boat, misty distant mountains, willow silhouettes, and rippling ink-like water, with no characters present. Refined guofeng scene art with ink-wash atmosphere and delicate gongbi coloring. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep all key elements inside the middle 70-80% area with a 10-15% safe margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "雅致",
+      "空灵",
+      "悠远"
+    ],
+    "style": [
+      "水墨动画",
+      "工笔设色"
+    ],
+    "color": [
+      "月白",
+      "黛青",
+      "朱砂"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15d78c20708191bdad75db433f19ce.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "跃迁尘暴",
+  "category": {
+    "primary": "抽象",
+    "secondary": "粒子"
+  },
+  "scene": "高密度粒子云团向中心跃迁，带出星爆般的节奏与空间深度。",
+  "prompt": "Create one premium vertical wallpaper for category 抽象 / 粒子. A deep abstract particle field where dense luminous dust clouds surge inward like a starburst transition, with rich spatial depth. Premium volumetric digital art. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, main motion centered within a safe middle zone and 10-15% margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "跃迁感",
+      "密集",
+      "星爆"
+    ],
+    "style": [
+      "体积模拟",
+      "科学可视化"
+    ],
+    "color": [
+      "炫白",
+      "电紫",
+      "深空蓝"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15e668d3c08191b12a0c3635c9b902.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

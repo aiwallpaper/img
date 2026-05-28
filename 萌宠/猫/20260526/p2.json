@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "书阁夜瞳",
+  "category": {
+    "primary": "萌宠",
+    "secondary": "猫"
+  },
+  "scene": "黑猫蹲在高书架与月光之间，周围有旧书、台灯余辉和微尘。",
+  "prompt": "Create one premium vertical wallpaper for category 萌宠 / 猫. A curious black cat perched among tall bookshelves under moonlight, surrounded by old books, a warm lamp glow, and floating dust, with no human presence. Premium illustrated wallpaper with soft-focus storybook atmosphere. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, the cat centered safely with a 10-15% margin. No human faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "俏皮",
+      "好奇",
+      "夜静"
+    ],
+    "style": [
+      "绘本插图",
+      "柔焦摄影感"
+    ],
+    "color": [
+      "烟紫",
+      "蜂蜜棕",
+      "月灰"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15ec5596b8819196931723ff8912e2.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

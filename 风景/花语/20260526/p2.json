@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "紫藤风廊",
+  "category": {
+    "primary": "风景",
+    "secondary": "花语"
+  },
+  "scene": "成串紫藤垂落成拱廊，微风带起花瓣与透光层次，浪漫但不拥挤。",
+  "prompt": "Create one premium vertical wallpaper for category 风景 / 花语. A dreamy wisteria arcade with hanging blossoms, soft drifting petals, and filtered light creating elegant depth, romantic yet uncluttered. Premium decorative floral illustration for mobile wallpaper. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep all major floral elements centered safely with a 10-15% margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "馥郁",
+      "轻甜",
+      "沉醉"
+    ],
+    "style": [
+      "装饰插画",
+      "印象派"
+    ],
+    "color": [
+      "薰衣草紫",
+      "雾粉",
+      "象牙白"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15f2030c44819189a7b3c6ce0c8954.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "弧影留白",
+  "category": {
+    "primary": "抽象",
+    "secondary": "极简"
+  },
+  "scene": "纸感留白、单一弧面投影与克制色块构成极简平衡画面。",
+  "prompt": "Create one premium vertical wallpaper for category 抽象 / 极简. An ultra-minimal abstract composition with paper-like negative space, a single curved shadow form, and restrained color blocks. Premium minimalist wallpaper with calm balance. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, all elements centered safely with generous margins. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "克制",
+      "平衡感",
+      "呼吸感"
+    ],
+    "style": [
+      "纸艺构成",
+      "包豪斯"
+    ],
+    "color": [
+      "陶土色",
+      "骨白",
+      "墨褐"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15de1605708191bef8c2b8533a8ee3.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

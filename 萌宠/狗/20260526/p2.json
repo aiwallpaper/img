@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "海风短腿",
+  "category": {
+    "primary": "萌宠",
+    "secondary": "狗"
+  },
+  "scene": "一只柯基站在海边木栈道上迎着风，围巾轻扬，背景是低饱和海天。",
+  "prompt": "Create one premium vertical wallpaper for category 萌宠 / 狗. A cheerful corgi standing on a seaside boardwalk in breezy air with a lightly fluttering scarf and open ocean backdrop, no human presence. Premium pet wallpaper with clean cartoon-rendered realism. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, the dog centered safely within the middle 70-80% area. No human faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "忠诚感",
+      "活力",
+      "开朗"
+    ],
+    "style": [
+      "卡通渲染",
+      "生活摄影感"
+    ],
+    "color": [
+      "海盐蓝",
+      "橘棕",
+      "云米"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15ebc678f481918af1dbda48ea2f02.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

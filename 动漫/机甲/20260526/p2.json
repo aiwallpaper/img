@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "轨道机库",
+  "category": {
+    "primary": "动漫",
+    "secondary": "机甲"
+  },
+  "scene": "轨道机库中展开的机械翼、停泊平台与冷白警示灯构成机甲场景，无驾驶员。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 机甲. A colossal mecha maintenance hangar in orbit with unfolded mechanical wings, docking platforms, warning lights, and layered hard-surface structures, with no pilot or human figure visible. Premium anime mecha concept art. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep the major forms centered safely with a 10-15% margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "压迫感",
+      "冷峻",
+      "秩序"
+    ],
+    "style": [
+      "硬表面设定稿",
+      "机设原画"
+    ],
+    "color": [
+      "钛银",
+      "警示黄",
+      "枪灰"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15d981b1088191aaa0110e66fcc876.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "赤峡远行",
+  "category": {
+    "primary": "风景",
+    "secondary": "山川"
+  },
+  "scene": "赭红峡谷、盘旋山路与落日余辉构成雄浑而冒险感的山地景观。",
+  "prompt": "Create one premium vertical wallpaper for category 风景 / 山川. A vast red canyon landscape with winding mountain roads, layered cliffs, and dramatic sunset glow, evoking epic travel and scale. Premium scenic concept painting for mobile wallpaper. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep all major forms centered within the middle 70-80% area and a 10-15% safe margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "雄浑",
+      "炽烈",
+      "远征"
+    ],
+    "style": [
+      "史诗 matte painting",
+      "地貌插画"
+    ],
+    "color": [
+      "赭石",
+      "铜橙",
+      "岩灰"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15ef39bd90819180bed772013b7a94.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

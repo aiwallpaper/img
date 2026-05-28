@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "瀑雾苔谷",
+  "category": {
+    "primary": "风景",
+    "secondary": "森语"
+  },
+  "scene": "苔藓峡谷、细长瀑布与潮湿雾气构成深呼吸般的森林空间。",
+  "prompt": "Create one premium vertical wallpaper for category 风景 / 森语. A lush mossy forest canyon with a slender waterfall, wet stones, drifting mist, and rich layered greenery, immersive and fresh. Premium nature-documentary-inspired scenic illustration. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep the main waterfall and depth cues centered safely with a 10-15% margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "湿润",
+      "灵动",
+      "呼吸感"
+    ],
+    "style": [
+      "自然纪录片感",
+      "细腻插绘"
+    ],
+    "color": [
+      "青苔绿",
+      "孔雀蓝",
+      "石墨灰"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15f0e99d9481919b4a697f691b1f90.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

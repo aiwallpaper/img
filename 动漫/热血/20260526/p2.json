@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "雷场决意",
+  "category": {
+    "primary": "动漫",
+    "secondary": "热血"
+  },
+  "scene": "雷电裂隙、破碎石台、旗帜碎片与能量冲击组成高张力热血画面，无人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 热血. A high-impact anime action scene built from thunder cracks, shattered stone arenas, torn banners, and explosive energy surges, with no character visible. Bold shonen poster style with dynamic storyboard motion. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, keep the main energy burst centered safely with a 10-15% margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "燃势",
+      "冲锋感",
+      "爆发"
+    ],
+    "style": [
+      "热血海报风",
+      "动态分镜"
+    ],
+    "color": [
+      "电蓝",
+      "炽橙",
+      "炭黑"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15dc0cdbc48191a24e511115fbd3ba.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

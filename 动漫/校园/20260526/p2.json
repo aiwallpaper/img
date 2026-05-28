@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "天台放学后",
+  "category": {
+    "primary": "动漫",
+    "secondary": "校园"
+  },
+  "scene": "放学后的校园天台、风动护网、储物柜与暖光天空构成青春氛围，无人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 校园. An empty anime school rooftop after class with chain-link fencing, storage lockers, drifting papers, and a bright breezy sky, with no characters present. Youthful background art with clear cel-shaded atmosphere. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, centered and safe with all important elements away from edges. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "青春感",
+      "风感",
+      "晴朗"
+    ],
+    "style": [
+      "青春番背景美术",
+      "清透赛璐璐"
+    ],
+    "color": [
+      "蔚蓝",
+      "云白",
+      "橙红"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15dab071548191817423656df5cc49.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

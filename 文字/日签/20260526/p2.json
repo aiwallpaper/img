@@ -1,0 +1,52 @@
+{
+  "id": "p2",
+  "title": "今日小记",
+  "category": {
+    "primary": "文字",
+    "secondary": "日签"
+  },
+  "scene": "晨间纸卡、杯具与柔和阴影构成编辑感背景，中央加入中文文案“今天也要 / 先照顾好自己”。",
+  "prompt": "Create one premium vertical wallpaper for category 文字 / 日签 with a minimal editorial still life, layered cards, morning shadows, and a clean central text area. Render the final wallpaper with visible Chinese text: “今天也要 / 先照顾好自己”. Premium daily-sign wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "秩序感",
+      "清晨感",
+      "留白"
+    ],
+    "style": [
+      "文具静物风",
+      "模块化版式"
+    ],
+    "color": [
+      "亚麻白",
+      "灰蓝",
+      "鼠尾草"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167ebbf404819184579c1dd9fd20d9.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  },
+  "copy": "今天也要\n先照顾好自己"
+}

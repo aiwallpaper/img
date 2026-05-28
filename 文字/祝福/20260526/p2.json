@@ -1,0 +1,52 @@
+{
+  "id": "p2",
+  "title": "愿光常在",
+  "category": {
+    "primary": "文字",
+    "secondary": "祝福"
+  },
+  "scene": "暖色灯光、缎带与祝福花饰构成庆贺背景，中央加入中文文案“愿你所行皆坦途 / 所遇皆温柔”。",
+  "prompt": "Create one premium vertical wallpaper for category 文字 / 祝福 with warm lantern glow, ribbons, festive floral accents, and an elegant central text area. Render the final wallpaper with visible Chinese text: “愿你所行皆坦途 / 所遇皆温柔”. Premium blessing wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "喜悦",
+      "圆满",
+      "亲和"
+    ],
+    "style": [
+      "庆典剪纸风",
+      "温润插画"
+    ],
+    "color": [
+      "石榴红",
+      "杏金",
+      "玉白"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167f0acd988191bb46dd25d2493985.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  },
+  "copy": "愿你所行皆坦途\n所遇皆温柔"
+}

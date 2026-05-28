@@ -1,0 +1,52 @@
+{
+  "id": "p2",
+  "title": "慢慢生活",
+  "category": {
+    "primary": "文字",
+    "secondary": "躺平"
+  },
+  "scene": "吊床、植物影子与午后空气构成松弛背景，中央加入中文文案“今天不赶路 / 只感受生活”。",
+  "prompt": "Create one premium vertical wallpaper for category 文字 / 躺平 with an indoor hammock, plant shadows, a side table, soft afternoon air, and a calm center text area. Render the final wallpaper with visible Chinese text: “今天不赶路 / 只感受生活”. Premium laid-back lifestyle wallpaper, strict 9:16 portrait composition, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "懒洋洋",
+      "松垮感",
+      "放空感"
+    ],
+    "style": [
+      "扁平治愈风",
+      "生活方式插画"
+    ],
+    "color": [
+      "灰粉",
+      "奶茶棕",
+      "雾青"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167fc0502481919d929bf4065ea68c.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  },
+  "copy": "今天不赶路\n只感受生活"
+}

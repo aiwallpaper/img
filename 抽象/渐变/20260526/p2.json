@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "频谱漩幕",
+  "category": {
+    "primary": "抽象",
+    "secondary": "渐变"
+  },
+  "scene": "多层光谱渐变在中心回旋，形成轻盈未来感的色域空间。",
+  "prompt": "Create one premium vertical wallpaper for category 抽象 / 渐变. A smooth spectral abstract wallpaper with layered glowing gradients spiraling softly toward the center, clean and futuristic. Premium luminous interface-inspired digital art. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, centered safely with a 10-15% margin and no edge crowding. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "漂浮感",
+      "柔滑",
+      "未来感"
+    ],
+    "style": [
+      "空气喷绘",
+      "发光界面"
+    ],
+    "color": [
+      "蜜瓜绿",
+      "珊瑚粉",
+      "钴蓝"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15e611bdf48191bfc6864262d48d5b.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

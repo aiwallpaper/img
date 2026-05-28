@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "脉冲回廊",
+  "category": {
+    "primary": "动漫",
+    "secondary": "赛博"
+  },
+  "scene": "数据回廊、悬浮广告框、磁悬轨道与酸性霓光构成赛博城市内部空间，无人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 赛博. A cyberpunk transit corridor packed with hovering holographic frames, magnetic rail lines, reflective metal, and aggressive synthwave lighting, with no characters present. Premium anime cyber scene art with holographic UI flair. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, safe centered composition with a 10-15% margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "冷酷",
+      "电噪感",
+      "疾速"
+    ],
+    "style": [
+      "合成波",
+      "全息界面风"
+    ],
+    "color": [
+      "酸性绿",
+      "品红",
+      "夜黑"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15dc8bfe308191a807eed2efd9705b.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}

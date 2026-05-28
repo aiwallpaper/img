@@ -1,0 +1,51 @@
+{
+  "id": "p2",
+  "title": "列车午憩",
+  "category": {
+    "primary": "动漫",
+    "secondary": "治愈"
+  },
+  "scene": "午后列车车厢、软靠垫、玻璃水痕与斑驳日光组成治愈系二次元场景，无人物。",
+  "prompt": "Create one premium vertical wallpaper for category 动漫 / 治愈. A cozy anime train carriage in afternoon light with soft cushions, faint rain traces on the window, gentle sun patches, and a calm healing mood, with no characters present. Polished cel-style illustration with light-novel cover ambience. Strict 9:16 portrait composition for a 1440x2560 phone wallpaper, all key elements centered in the middle 70-80% area with a 10-15% safe margin. No faces, no hands, no visible text, no watermark, no logo, no border.",
+  "tags": {
+    "emotion": [
+      "安心",
+      "慢节奏",
+      "柔雾"
+    ],
+    "style": [
+      "赛璐璐",
+      "轻小说封面感"
+    ],
+    "color": [
+      "杏子色",
+      "薄荷白",
+      "晴空蓝"
+    ]
+  },
+  "files": {
+    "original": "p2.png",
+    "thumbnail": "p2.webp"
+  },
+  "size": {
+    "original": {
+      "width": 1440,
+      "height": 2560
+    },
+    "thumbnail": {
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "date": "20260526",
+  "author": "OpenAI Codex",
+  "status": "draft",
+  "source": {
+    "generator": "image_gen",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a15db0be78881918afb261f2a9dde2c.png",
+    "postprocess": [
+      "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
+      "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
+    ]
+  }
+}
