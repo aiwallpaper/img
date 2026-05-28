@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "日签"
   },
-  "scene": "纸感暖灰背景中只保留轻微页边与影子，文字承担主要情绪表达，像一本安静生活杂志的封面。",
-  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 日签. Quiet editorial still-life poster with soft paper-like background, one faint page edge or shadow cue, and large readable Simplified Chinese text: “今天也要 / 先照顾好自己”. Gentle, intimate, sophisticated, with strong breathing room. No clutter, no watermark, no logo, no border.",
+  "scene": "纸感暖灰与柔和植物影子构成安静生活杂志封面感，文字是主视觉，细节克制。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 日签. Soft paper-like warm gray background, one faint plant shadow cue, large readable Simplified Chinese text “今天也要 / 先照顾好自己”, refined Japanese editorial mood, and abundant breathing room.",
   "tags": {
     "emotion": [
       "秩序感",
@@ -42,7 +42,7 @@
   "status": "draft",
   "source": {
     "generator": "image_gen",
-    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167ebbf404819184579c1dd9fd20d9.png",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a17daf7f0a481919d55839793100137.png",
     "postprocess": [
       "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
       "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"

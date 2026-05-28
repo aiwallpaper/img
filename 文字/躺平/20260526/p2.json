@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "躺平"
   },
-  "scene": "暖米色留白与吊床弧线构成舒展节奏，文字与光影共同营造松弛和被安抚的感觉。",
-  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 躺平. Minimal calm lifestyle poster with warm beige field, one faint hammock curve or soft afternoon shadow, and large readable Simplified Chinese text: “今天不赶路 / 只感受生活”. Healed, unhurried, quietly luxurious, with ample negative space. No clutter, no watermark, no logo, no border.",
+  "scene": "暖米色留白与吊床弧线共同营造松弛感，文字大而轻，像一本慢生活刊物封面。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 躺平. Warm beige field, one faint hammock curve, large readable Simplified Chinese text “今天不赶路 / 只感受生活”, healed and unhurried mood, minimal premium editorial style.",
   "tags": {
     "emotion": [
       "懒洋洋",
@@ -42,7 +42,7 @@
   "status": "draft",
   "source": {
     "generator": "image_gen",
-    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167fc0502481919d929bf4065ea68c.png",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a17dcfc35288191b08f28f1698ca0a2.png",
     "postprocess": [
       "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
       "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"

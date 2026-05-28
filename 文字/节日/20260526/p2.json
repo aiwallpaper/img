@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "节日"
   },
-  "scene": "深绿背景与单一金色节庆焦点形成高质感对比，大字留白明确，既有仪式感也不显拥挤。",
-  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 节日. Modern festive poster with deep emerald background, one subtle glowing ornament motif, and large readable Simplified Chinese text: “把欢喜 / 收进今天”. Ceremonial, intimate, tasteful, not commercial, not crowded. No watermark, no logo, no border.",
+  "scene": "深绿底与单一金色圆环形成现代节庆感，大字留白明确，雅致而不过度热闹。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 节日. Deep emerald background, one glowing gold ornament ring, large readable Simplified Chinese text “把欢喜 / 收进今天”, ceremonial and tasteful with strong negative space.",
   "tags": {
     "emotion": [
       "欢腾",
@@ -42,7 +42,7 @@
   "status": "draft",
   "source": {
     "generator": "image_gen",
-    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167f5a8b408191bf4d057e829d0b2a.png",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a17dc897a4c819192f7f91f5fca8352.png",
     "postprocess": [
       "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
       "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"

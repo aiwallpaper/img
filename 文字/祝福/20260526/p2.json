@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "祝福"
   },
-  "scene": "石榴红与柔金的克制庆贺构图中，文案被当作真正的主视觉来处理，氛围温暖、细腻、有祝福感。",
-  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 祝福. Luxurious but restrained celebratory poster with garnet background, one subtle lantern halo or ribbon arc, and large readable Simplified Chinese text: “愿你所行皆坦途 / 所遇皆温柔”. Tender, blessed, refined, with elegant negative space. No clutter, no watermark, no logo, no border.",
+  "scene": "深红与柔金构成仪式感祝福海报，竖排大字成为唯一主视觉，气质温暖而郑重。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 祝福. Garnet field, one subtle lantern halo/ribbon cue, elegant vertical Chinese typography with readable text “愿你所行皆坦途 / 所遇皆温柔”, refined and warm, not crowded.",
   "tags": {
     "emotion": [
       "喜悦",
@@ -42,7 +42,7 @@
   "status": "draft",
   "source": {
     "generator": "image_gen",
-    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167f0acd988191bb46dd25d2493985.png",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a17db42928481919b755f2ae77f8830.png",
     "postprocess": [
       "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
       "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"

@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "EMO"
   },
-  "scene": "近黑靛蓝背景与微弱窗光倒影构成安静情绪场，文案成为唯一主视觉，整体克制、孤独、留白充足。",
-  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / EMO. Refined editorial poster, 50-60% negative space, near-black indigo background, one dim reflected window glow, and large readable Simplified Chinese text: “有些话 / 只适合说给夜里听”. The wallpaper should feel lonely, quiet, intimate, and high-end. No clutter, no collage, no watermark, no logo, no border.",
+  "scene": "深靛背景与朦胧窗影形成安静孤独的情绪场，文字竖向排布，留白充分，情绪克制而有共鸣。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / EMO. Use a near-black indigo field, one blurred rain-lit window reflection, large readable Simplified Chinese text “有些话 / 只适合说给夜里听”, strong negative space, and quiet editorial poster sensibility.",
   "tags": {
     "emotion": [
       "失重",
@@ -42,7 +42,7 @@
   "status": "draft",
   "source": {
     "generator": "image_gen",
-    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167dcf5468819180fe2147778c37a3.png",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a17da79a6648191b27d90e6f0e1dba7.png",
     "postprocess": [
       "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
       "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"

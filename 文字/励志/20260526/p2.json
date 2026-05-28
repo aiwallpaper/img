@@ -5,8 +5,8 @@
     "primary": "文字",
     "secondary": "励志"
   },
-  "scene": "暖白留白背景与克制晨光路径共同服务文字层级，画面安定、笃定，不煽情也不嘈杂。",
-  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 励志. Minimalist motivational poster with warm off-white background, one subtle ascending path, and large readable Simplified Chinese text: “慢一点没关系 / 你一直在向前”. Calm, reassuring, quietly powerful, with strong negative space. No clutter, no watermark, no logo, no border.",
+  "scene": "暖白大留白与一条通向光处的台阶共同服务文字层级，情绪是平静、笃定、被鼓励。",
+  "prompt": "Design a premium vertical Chinese typographic wallpaper for category 文字 / 励志. Warm off-white background, restrained glowing stair/path motif, large readable Simplified Chinese text “慢一点没关系 / 你一直在向前”, calm premium editorial hierarchy, and generous negative space.",
   "tags": {
     "emotion": [
       "振作",
@@ -42,7 +42,7 @@
   "status": "draft",
   "source": {
     "generator": "image_gen",
-    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a167e1ad2408191a39b09847c90020c.png",
+    "originalFile": "/Users/quanfengmini/.codex/generated_images/019e6536-f332-7a51-b881-18dd86ac238d/ig_00b71599664d6323016a17daad089c81919229f78fcae5b5f0.png",
     "postprocess": [
       "bash scripts/upscale-wallpaper.sh <source> <target>/pN.png",
       "bash scripts/make-wallpaper-thumb.sh <target>/pN.png <target>/pN.webp"
